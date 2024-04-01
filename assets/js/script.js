@@ -4,13 +4,13 @@ function init() {
     for (let i = 0; i < 9; i++) {
         hero.innerHTML += `<div class="hero-still"> </div>`
     }
-    deneme()
+    getClassName()()
 
 }
 
 let id = 0
 
-function deneme() {
+function getClassName() {
     const herostills = document.querySelectorAll(".hero-still")
 
     for (const herostill of herostills) {
